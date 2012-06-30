@@ -1,0 +1,21 @@
+[user]
+	name = Najaf Ali
+	email = ali.najaf@gmail.com
+[color]
+	branch = auto
+	status = auto
+	diff = auto
+	ui = auto
+  interactive = auto
+[alias]
+	lg = log --all --graph --pretty=format:'%Cred%h%Creset - %C(bold white)%s%Creset%C(yellow)%d%Creset %Cgreen(%cr) %C(blue)@%an%Creset' --abbrev-commit --date=relative
+  graph = log --oneline --graph
+  st = status
+  pom = push origin master
+  f = fetch
+  ci = commit
+  co = checkout
+  d = diff
+  dc = diff --cached
+[interactive]
+  singlekey = true
